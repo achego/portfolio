@@ -1,15 +1,11 @@
-import React from 'react'
-import Layout from './components/Layout/Layout'
-import BurgerBuilder from './screens/BurgerBuilder/BurgerBuilder'
+import Home from "./screens/Home/Home";
 
 const App = () => {
   return (
-    <div>
-      <Layout>
-        <BurgerBuilder />
-      </Layout>
+    <div className="min-h-[100vh] bg-white text-sm text-[color:var(--grey-1)] md:text-base">
+      <Home />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
