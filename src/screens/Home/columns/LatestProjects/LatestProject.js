@@ -12,7 +12,7 @@ const LatestProject = ({title, description}) => {
           <h4>{title}</h4>
           <p className="text-white">{description}</p>
         </div>
-        <Button style='bg-[color:var(--prim-4)] hover:bg-[color:var(--prim-6)] text-white'>See all</Button>
+        <Button className='bg-[color:var(--prim-4)] hover:bg-[color:var(--prim-6)] text-white'>See all</Button>
       </div>
     </div>
   );
